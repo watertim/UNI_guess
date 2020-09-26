@@ -1,6 +1,6 @@
 # UNI_guess_account
 A little tool to exhaustively guess ETH private key/address pairs which are eligible to claim UNI airdrop.
-* You may need a very powerful computer in order to get result.
+*You may need many powerful computers in order to get results.
 
 ## Install dependency
 <code>
