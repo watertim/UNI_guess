@@ -1,0 +1,9 @@
+#!/bin/bash
+
+while read -r line
+do
+	grep -F -i "$line" addr_list;
+	if [ $? -eq 0 ];then
+	grep -F -i "$line" dict_priv_addr.txt
+	fi
+done < dict_addr.txt

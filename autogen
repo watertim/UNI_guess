@@ -1,0 +1,10 @@
+#!/bin/bash
+
+END=10000
+for i in $(seq 1 $END);
+do
+    echo "loop $i times"
+    python3 listing.py
+    ./search >> log
+    ./del
+done
